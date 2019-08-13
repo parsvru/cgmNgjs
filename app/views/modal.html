@@ -1,0 +1,25 @@
+<div>
+        <script type="text/ng-template" id="modaldialog.html">
+            <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h4 class="modal-title">Add Item</h4>
+            </div>
+            <div class="modal-body">
+                    <form name="myForm" novalidate>
+                        <div class="form-group">
+                            <label for="email">Name<sup class="red">*</sup></label>
+                            <input type="text" required class="form-control" placeholder="Enter Name" ng-model="record.name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Date">Date</label>
+                            <div date-directive ng-model="record.date"></div>
+                        </div>
+                    </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" ng-disabled="!myForm.$dirty && myForm.$invalid" ng-click="save()">save</button>
+                <button type="button" class="btn btn-default" ng-click="cancel()">Cancel</button>
+            </div>
+        </div>
+        </script>
+    </div>
