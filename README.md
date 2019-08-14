@@ -11,12 +11,11 @@ Clone the repository using git:
 git clone https://github.com/parsvru/cgmNgjs.git
 cd cgmNgjs
 ```
-
+- download the dependencies
 ```
 npm install
-
 ```
-
+- start the application
 ```
 npm run start
 ```
