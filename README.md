@@ -20,6 +20,6 @@ npm install
 npm run start
 ```
 
-Now browse to the app at [`localhost:5200/index.html`][local-app-url].
+Now browse to the app at http:/localhost:5200/index.html
 
 
